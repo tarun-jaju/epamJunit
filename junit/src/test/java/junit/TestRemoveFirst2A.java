@@ -8,11 +8,11 @@ import org.junit.jupiter.api.BeforeEach;
 
 public class TestRemoveFirst2A {
 	RemoveFirst2A r;
-	       /*“ABCD” => “BCD”
-			 “AACD” => “CD”
-			 “BACD” => “BCD”
-			 “BBAA” => “BBAA”
-			 “AABAA” => “BAA”*/
+	       /*“ABCD” => “BCD”-sucess
+			 “AACD” => “CD”-sucess
+			 “BACD” => “BCD”-sucess
+			 “BBAA” => “BBAA”-sucess
+			 “AABAA” => “BAA” -sucess*/
 	@BeforeEach
 	void createObject()
 	{
